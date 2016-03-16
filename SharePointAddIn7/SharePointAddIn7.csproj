@@ -51,15 +51,23 @@
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="SaludoWebParWeb\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{62b63ec0-fcd7-4656-964c-a6520aecd6f3}</SharePointProjectItemId>
+    </None>
     <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{58188a93-1a43-4dc1-a431-ecb0829ad353}</SharePointProjectItemId>
     </None>
+    <Content Include="Pages\SaludoWebParWeb.aspx" />
+    <Content Include="SaludoWebParWeb\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\saludos.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
